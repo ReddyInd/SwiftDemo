@@ -8,6 +8,9 @@
 
 import UIKit
 
+let gggg =  Second()
+
+
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
@@ -19,7 +22,41 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
+    
+    
+    @IBAction func SampleButtonAction(sender: UIButton) {
+        
+        var next = self.storyboard?.instantiateViewControllerWithIdentifier("SECOND") as! Second
+      //  self.presentViewController(next, animated: true, completion: nil)
+       self.navigationController?.pushViewController(next, animated: true)
+   
+        
+    }
+    
+    
+    
+    
+    @IBAction func dropButtonAction(sender: UIButton) {
+        
+        
+       // UIButton tempButton = (UIButton *)sender
+        
+        //NSInteger(); Tagval = sender.tag
+        
+        println (sender.tag)
+        
+        if sender.tag == 100{
+            println("First Button Pressed")
+        }else if sender.tag == 200{
+            println("Second Button Pressed")
+        }else if sender.tag == 300{
+            println("Third Button Pressed")
+        }
+        
+        
+    }
+    
+    
 
 }
 

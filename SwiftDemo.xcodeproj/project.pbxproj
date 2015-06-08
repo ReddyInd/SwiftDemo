@@ -13,6 +13,7 @@
 		41652F111B2059B000149125 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41652F101B2059B000149125 /* Images.xcassets */; };
 		41652F141B2059B000149125 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 41652F121B2059B000149125 /* LaunchScreen.xib */; };
 		41652F201B2059B000149125 /* SwiftDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41652F1F1B2059B000149125 /* SwiftDemoTests.swift */; };
+		41652F301B20708000149125 /* Second.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41652F2F1B20708000149125 /* Second.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		41652F191B2059B000149125 /* SwiftDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		41652F1E1B2059B000149125 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		41652F1F1B2059B000149125 /* SwiftDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftDemoTests.swift; sourceTree = "<group>"; };
+		41652F2F1B20708000149125 /* Second.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Second.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 			children = (
 				41652F091B2059B000149125 /* AppDelegate.swift */,
 				41652F0B1B2059B000149125 /* ViewController.swift */,
+				41652F2F1B20708000149125 /* Second.swift */,
 				41652F0D1B2059B000149125 /* Main.storyboard */,
 				41652F101B2059B000149125 /* Images.xcassets */,
 				41652F121B2059B000149125 /* LaunchScreen.xib */,
@@ -214,6 +217,7 @@
 			files = (
 				41652F0C1B2059B000149125 /* ViewController.swift in Sources */,
 				41652F0A1B2059B000149125 /* AppDelegate.swift in Sources */,
+				41652F301B20708000149125 /* Second.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
